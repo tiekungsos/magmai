@@ -1,0 +1,62 @@
+<template>
+  <div class="section-buttom">
+     <div class="row">
+       <div class="col-md-6 col-lg-6 col-xl-6 left">
+         <div class="title">
+            <p class="top">สวนแมกไม้รีสอร์ท</p>
+            <p class="center">ที่พักสะอาด สะดวก สบาย</p>
+            <p class="buttom">ใกล้สะพานมอญ</p>
+         </div>
+         <div class="contect">
+            <div class="row row-cols-2">
+              <div class="col">
+                <p class="title">สวนแมกไม้รีสอร์ท</p>
+                <p class="content">200/8 หมู่ 3 ต.หนองลู</p>
+                <p class="content">อ.สังขละบุรี จ.กาญจนบุรี 71240</p>
+              </div>
+              <div class="col">
+                <p class="title">ติดต่อได้ตลอด 24 ชั่วโมง</p>
+                <p class="content">Reception : 091 – 2677199</p>
+                <p class="content">Email : suanmagmai@gmail.com</p>
+                <p class="content">Id Line : 081 – 8386311</p>
+              </div>
+            </div>
+         </div>
+         <div class="social">
+            <img src="~/assets/img/icon/social/Group 18.png" alt="">
+            <img src="~/assets/img/icon/social/line.png" alt="">
+            <img src="~/assets/img/icon/social/twitter.png" alt="">
+            <img src="~/assets/img/icon/social/instagram-sketched-2.png" alt="">
+         </div>
+       </div>
+       <div class="col-md-6 col-lg-6 col-xl-6 right">
+         <div class="box">
+           <div class="header">
+             <p>จองห้องพักกับเรา</p>
+           </div>
+           <div class="body"> 
+            <iframe
+              width="747"
+              height="458"
+              frameborder="0" style="border:0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBrw69T_WRI_mStEkI6-xOpQ48UPvfWTM
+                &q=สวนแมกไม้รีสอร์ท" allowfullscreen>
+            </iframe>
+ 
+           </div>
+         </div>
+       </div>
+     </div>
+  </div>
+
+</template>
+
+<script>
+
+export default {
+   data() {
+    return { 
+     }
+  }
+}
+</script>

@@ -24,6 +24,7 @@ body {
                 padding-left: 215px;
                 .nav-link {
                     color: black;
+                    font-weight: 500;
                 }
                 .link-next {
                     padding-left: 30px;
@@ -48,7 +49,6 @@ body {
 }
 
 .section-1 {
-    background-image: url("/_nuxt/assets/img/Makmai_0025.png");
     width: auto;
     height: 1080px;
     background-size: contain;
@@ -113,6 +113,351 @@ body {
             height: 203px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: #fff;
+            p.mr-3 {
+                margin-left: (1070px * .047) !important;
+                margin-top: 23px;
+                font-size: 20px;
+                font-weight: 500;
+                span {
+                    font-size: 14px !important;
+                    font-weight: 200 !important;
+                }
+            }
+            .right {
+                display: inline-block;
+                text-align: right;
+                font-size: 12px;
+                font-style: italic;
+                height: 55px;
+            }
+            .left {
+                display: inline-block;
+                text-align: left;
+                font-size: 12px;
+                font-style: italic;
+                height: 55px;
+            }
+        }
+    }
+}
+
+.section-2 {
+    padding-left: 15.3%;
+    padding-right: 15.3%;
+    height: 2855px;
+    h2 {
+        padding-top: 96px;
+        font-family: 'Sriracha', cursive;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 23px;
+    }
+    div.hr {
+        div.hr-in {
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: solid 2px;
+            border-color: #54BA49;
+            width: 273px;
+        }
+        padding-bottom: 40px;
+    }
+    .content {
+        font-size: 14px;
+        padding-left: 190px;
+        padding-right: 190px;
+        .left-content {
+            padding-top: 36px;
+        }
+        .right-content {
+            padding-bottom: 60px;
+        }
+        .icon-map {
+            // width: 215px;
+            position: relative;
+            img {
+                position: absolute;
+            }
+            span {
+                position: absolute;
+                font-size: 18px;
+                margin-left: 45px;
+            }
+        }
+    }
+    .content-second {
+        padding-top: 90px;
+        div.image {
+            .right {
+                padding-top: 106px;
+            }
+            .box-right {
+                padding-left: 50px;
+            }
+            .box-hight {
+                padding-top: 37px;
+            }
+            .image-buttom {
+                top: 0;
+            }
+            .image-shadows {
+                position: relative;
+                .image-in {
+                    left: 40px;
+                    position: absolute;
+                    background-image: inherit;
+                    border-radius: inherit;
+                    width: inherit;
+                    height: inherit;
+                    transform: translate(10px, 30px) scale(0.9);
+                    z-index: -1;
+                    -webkit-filter: blur(14px);
+                    filter: blur(20px);
+                }
+                .image-in-2 {
+                    left: -35px;
+                    top: 0px;
+                    position: absolute;
+                    background-image: inherit;
+                    border-radius: inherit;
+                    width: inherit;
+                    height: inherit;
+                    transform: translate(10px, 0px) scale(0.9);
+                    z-index: -1;
+                    -webkit-filter: blur(14px);
+                    filter: blur(20px);
+                }
+            }
+            .image-text {
+                position: relative;
+                color: white;
+                .bottom-right {
+                    font-family: 'Sriracha', cursive;
+                    font-size: 40px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .content-three {
+        padding-top: 110px;
+        margin-left: -50px;
+        margin-right: -50px;
+        .content-three-p {
+            position: relative;
+            font-size: 20px;
+            font-weight: 200;
+            font-style: italic;
+            height: 60px;
+            span {
+                position: absolute;
+            }
+            .content-icon {
+                position: relative;
+                padding-right: 25px;
+            }
+        }
+        .second {
+            padding-top: 20px;
+        }
+        .no-padding {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .top-content {
+            margin-top: -20px;
+            margin-left: -40px;
+            position: relative;
+            .profile {
+                position: relative;
+            }
+            .comment {
+                position: absolute;
+                font-size: 12px;
+                font-weight: 300;
+                font-style: italic;
+                left: 230px;
+                top: 40px;
+                margin-left: 0;
+                margin-right: 0;
+                text-align: left;
+                width: 640px;
+                span {
+                    font-style: none !important;
+                    font-size: 20px !important;
+                    font-weight: 500;
+                }
+            }
+            .lang-left {
+                position: absolute;
+                transform: translate(10px, -100px);
+            }
+            .lang-right {
+                position: absolute;
+                transform: translate(600px, 25px);
+            }
+        }
+    }
+}
+
+.section-3 {
+    height: 856px;
+    padding-left: 15.3%;
+    padding-right: 15.3%;
+    position: relative;
+    .title {
+        color: #fff;
+        padding-top: 160px;
+        font-family: 'Sriracha', cursive;
+        font-size: 40px;
+    }
+    .content {
+        padding-top: 10px;
+        font-size: 20px;
+        font-style: italic;
+        color: #fff;
+        width: 855px;
+    }
+    .silder {
+        bottom: 0;
+        right: 12%;
+        position: absolute;
+        .button {
+            position: relative;
+            width: 405px;
+            height: 103px;
+            background-color: #FBB018;
+            p {
+                position: absolute;
+                padding: 40px 165px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.section-4 {
+    height: 1605px;
+    padding-left: 15.3%;
+    padding-right: 15.3%;
+    position: relative;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .title {
+        color: #000;
+        padding-top: 70px;
+        font-family: 'Sriracha', cursive;
+        font-size: 40px;
+        margin-left: -50px;
+    }
+    .gelly-left {
+        position: relative;
+        padding-left: 50px;
+        padding-right: 25px;
+        padding-top: 58px;
+    }
+    .gelly-right {
+        position: relative;
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 58px;
+    }
+    .detail {
+        position: absolute;
+        margin: -450px 204px;
+        color: #fff;
+        text-align: center;
+        .inFirst {
+            font-size: 18px;
+        }
+        .inSec {
+            font-family: 'Sriracha', cursive;
+            font-size: 40px;
+        }
+    }
+    .button-sction {
+        position: relative;
+        padding-top: 65px;
+        .button {
+            left: 50%;
+            position: absolute;
+            -ms-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+            width: 225px;
+            height: 80px;
+            text-align: center;
+            background-color: #3A87F6;
+            cursor: pointer;
+            -webkit-box-shadow: 18px 20px 43px 2px rgba(39, 103, 194, 0.73);
+            -moz-box-shadow: 18px 20px 43px 2px rgba(39, 103, 194, 0.73);
+            box-shadow: 18px 20px 43px 2px rgba(39, 103, 194, 0.73);
+            p {
+                margin-top: 26px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.section-buttom {
+    padding-left: 15.3%;
+    padding-right: 15.3%;
+    height: 620px;
+    .left {
+        .title {
+            margin-top: 60px;
+            p.top {
+                font-family: 'Sriracha', cursive;
+                font-size: 40px;
+            }
+            p.center {
+                margin-left: 70px;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 300;
+            }
+            p.buttom {
+                margin-left: 190px;
+                font-family: 'Sriracha', cursive;
+                font-size: 40px;
+            }
+        }
+        .contect {
+            .title {
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .content {
+                margin-bottom: 0px;
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+        .social {
+            margin-top: 75px;
+        }
+    }
+    .right {
+        position: relative;
+        .box {
+            width: 707px;
+            height: 574px;
+            -webkit-box-shadow: 11px 20px 52px -28px rgba(186, 186, 186, 1);
+            -moz-box-shadow: 11px 20px 52px -28px rgba(186, 186, 186, 1);
+            box-shadow: 11px 20px 52px -28px rgba(186, 186, 186, 1);
+            position: absolute;
+            margin-top: -60px;
+            .header {
+                height: 117px;
+                background-color: #009925;
+                text-align: center;
+                p {
+                    color: #fff;
+                    padding-top: 45px;
+                    font-style: italic;
+                }
+            }
         }
     }
 }
