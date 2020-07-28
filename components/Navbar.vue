@@ -1,14 +1,14 @@
   <template>
     <div class="navbar" >
         <div class="container-fluid">
-            <div class="col-lg-3 logo">
+            <div class="col-md-2 col-lg-1 col-xl-2 logo">
                 <div class="logo">
                     <Logo />
                 </div>
             </div> 
-            <div class="col-xl-7 menu">
+            <div class="col-md-10 col-lg-11 col-xl-8 menu">
                 <nav class="nav menunave">
-                <a class="nav-link link" href="#">หน้าแรก</a>
+                <a class="nav-link link first" href="#">หน้าแรก</a>
                 <a class="nav-link next link-next" href="#">ห้องพัก</a>
                 <a class="nav-link link-next" href="#">ห้องอาหาร</a>
                 <a class="nav-link link-next" href="#">ห้องประชุม</a>

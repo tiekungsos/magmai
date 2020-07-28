@@ -1,7 +1,19 @@
 <template>
   <div class="section-buttom">
      <div class="row">
-       <div class="col-md-6 col-lg-6 col-xl-6 left">
+
+      <div class="col-md-12 col-lg-12 col-xl-6 right mobile">
+         <div class="box">
+           <div class="header">
+             <p>จองห้องพักกับเรา</p>
+           </div>
+           <div class="body"> 
+             <iframe class="iframe" src="https://maps.google.com/maps?q=สวนแมกไม้รีสอร์ท&z=15&output=embed"  frameborder="0" style="border:0"></iframe>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-12 col-lg-12 col-xl-6 left">
          <div class="title">
             <p class="top">สวนแมกไม้รีสอร์ท</p>
             <p class="center">ที่พักสะอาด สะดวก สบาย</p>
@@ -29,23 +41,17 @@
             <img src="~/assets/img/icon/social/instagram-sketched-2.png" alt="">
          </div>
        </div>
-       <div class="col-md-6 col-lg-6 col-xl-6 right">
+       <div class="col-md-12 col-lg-12 col-xl-6 right non-mobile">
          <div class="box">
            <div class="header">
              <p>จองห้องพักกับเรา</p>
            </div>
            <div class="body"> 
-            <iframe
-              width="747"
-              height="458"
-              frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBrw69T_WRI_mStEkI6-xOpQ48UPvfWTM
-                &q=สวนแมกไม้รีสอร์ท" allowfullscreen>
-            </iframe>
- 
+              <iframe class="iframe" src="https://maps.google.com/maps?q=สวนแมกไม้รีสอร์ท&z=15&output=embed"  frameborder="0" style="border:0"></iframe>
            </div>
          </div>
        </div>
+
      </div>
   </div>
 

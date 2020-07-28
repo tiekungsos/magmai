@@ -1,17 +1,28 @@
 <template>
-  <div class="section-4" :style="{ backgroundImage: `linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 56%, rgba(255,255,255,0) 100%),url(${backgroundUrl})`}">
+  <div class="section-4" :style="{ backgroundImage: `linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) ${backgroundPercents}, rgba(255,255,255,0) 100%),url(${backgroundUrl})`}">
       <div class="block">
         <p class="title">แกลเลอรี่ภาพ</p>
         <div class="row">
-          <div class="col-md-6 gelly-left">
-            <img src="~/assets/img/home/section4/Makmai _0017.png" alt="">
+          <div class="col-md-12  col-lg-12 col-xl-6 gelly-left">
+       
+            <picture>
+              <source media="(max-width: 1024px" srcset="~/assets/img/home/section4/Group507.png">
+              <source srcset="~/assets/img/home/section4/Makmai_0017.png">
+              <img src="~/assets/img/home/section4/Makmai_0017.png" alt="">
+            </picture>
+
             <div class="detail">
                 <p class="inFirst">ที่นี่</p>
                 <p class="inSec">สังขละบุรี</p>
             </div>
           </div>
-          <div class="col-md-6 gelly-right">
-            <img src="~/assets/img/home/section4/Makmai _0155.png" alt="">
+          <div class="col-md-12  col-lg-12 col-xl-6 gelly-right">
+            <picture>
+              <source media="(max-width: 1024px" srcset="~/assets/img/home/section4/Group505.png">
+              <source srcset="~/assets/img/home/section4/Makmai_0155.png">
+              <img src="~/assets/img/home/section4/Makmai_0155.png" alt="">
+            </picture>
+
             <div class="detail">
                 <p class="inFirst">รูปภาพบรรยากาศ</p>
                 <p class="inSec">สวนแมกไม้</p>
@@ -31,11 +42,35 @@
 
 <script>
 import backgroundUrl from '~/assets/img/home/section4/EAK_1521.png'
-import backgroundUrl2 from '~/assets/img/home/section4/Rectangle257.png'
 
 export default {
    data() {
-    return { backgroundUrl,backgroundUrl2 }
-  }
+    return { backgroundUrl,backgroundPercents : '' ,
+      window: {
+              width: 0,
+              height: 0
+      }
+    }
+  },
+    created() {
+        window.addEventListener('resize', this.handleResize);
+        this.handleResize();
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.handleResize);
+    },
+    methods: {
+        handleResize() {
+            this.window.width = window.innerWidth;
+            this.window.height = window.innerHeight;
+
+            if(this.window.width > 1024){
+              this.backgroundPercents = '50%';
+            }else{
+              this.backgroundPercents = '0%';
+            }
+        }
+    }
+  
 }
 </script>
