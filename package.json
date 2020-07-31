@@ -13,7 +13,8 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "nuxt": "^2.13.0",
-    "nuxt-gmaps": "^1.2.5"
+    "nuxt-gmaps": "^1.2.5",
+    "vue-tree-nav": "0.0.16"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",

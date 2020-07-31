@@ -3,7 +3,7 @@
       <div class="block">
         <p class="title">แกลเลอรี่ภาพ</p>
         <div class="row">
-          <div class="col-md-12  col-lg-12 col-xl-6 gelly-left">
+          <div class="col-12 col-md-12 col-lg-12 col-xl-6 gelly-left">
        
             <picture>
               <source media="(max-width: 1024px" srcset="~/assets/img/home/section4/Group507.png">
@@ -16,7 +16,7 @@
                 <p class="inSec">สังขละบุรี</p>
             </div>
           </div>
-          <div class="col-md-12  col-lg-12 col-xl-6 gelly-right">
+          <div class="col-12 col-md-12  col-lg-12 col-xl-6 gelly-right">
             <picture>
               <source media="(max-width: 1024px" srcset="~/assets/img/home/section4/Group505.png">
               <source srcset="~/assets/img/home/section4/Makmai_0155.png">

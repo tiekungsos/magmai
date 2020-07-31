@@ -1,5 +1,5 @@
   <template>
-    <div class="navbar" >
+    <div class="navbar navbar-expand-lg non-mobile" >
         <div class="container-fluid">
             <div class="col-md-2 col-lg-1 col-xl-2 logo">
                 <div class="logo">
@@ -8,9 +8,9 @@
             </div> 
             <div class="col-md-10 col-lg-11 col-xl-8 menu">
                 <nav class="nav menunave">
-                <a class="nav-link link first" href="#">หน้าแรก</a>
-                <a class="nav-link next link-next" href="#">ห้องพัก</a>
-                <a class="nav-link link-next" href="#">ห้องอาหาร</a>
+                <nuxt-link to="/" class="nav-link link first" >หน้าแรก</nuxt-link>
+                <nuxt-link to="/room" class="nav-link next link-next">ห้องพัก</nuxt-link>
+                <nuxt-link to="/food" class="nav-link link-next" href="#">ห้องอาหาร</nuxt-link>
                 <a class="nav-link link-next" href="#">ห้องประชุม</a>
                 <a class="nav-link link-next" href="#">พักกับเรา</a>
                 <a class="nav-link link-next" href="#">โปรโมชั่น</a>
@@ -36,4 +36,8 @@
             </div>
         </div>
     </div>
+
+    
+
+
   </template>
