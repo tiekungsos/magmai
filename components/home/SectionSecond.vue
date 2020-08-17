@@ -8,7 +8,7 @@
      <div class="content">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6 col-xl-6 mobile">
-          <img class="image-left" src="~/assets/img/home/section2/Group 370.png" alt="">
+          <img class="image-left" src="~/assets/img/home/section2/Group 370.jpg" alt=""  v-lazy-load>
            <p class="right-content-top">
               <b>“คุณย่าเพ็ญศรี”</b> ผู้ก่อตั้งสวนแมกไม้รีสอร์ท ปฐมบทจากการเดินทางเพื่อค้าขายกับพม่าที่ด่านเจดีย์สามองค์ ตั้งแต่ปี พ.ศ 2522 ต่อมา ปีพ.ศ. 2533 
             เกิดเหตุการณ์ชายแดนไม่สงบจึงทำให้ต้องเปลี่ยนมาขายวัสดุก่อสร้างที่ตลาด”สังขละบุรี“
@@ -18,11 +18,11 @@
               หลวงพ่ออุตตมะแห่งวัดวังค์วิเวการาม จึงทำให้เป็นที่รู้จักกันในหมู่ลูกศิษย์  
               ครั้งหนึ่งมีลูกศิษย์ของหลวงพ่อเดินทางมานมัสการแต่ไม่มีที่พักเพราะสมัยนั้น สังขละบุรียังไม่เป็นที่รู้จักมากนัก ทำให้บ่อยครั้งที่คุณย่เปิดบ้านต้อนรับลูกศิษย์หลวงพ่อ ด้วยความที่ป้าหมอเป็นคนอารมณ์ดี และมีใจรักบริการ จึงดูแลต้อนรับลูกศิษย์ทุกคนอย่างอบอุ่น และด้วยความที่ป้าหมอชอบตกแต่งบ้านและสวนให้สะอาดและสวยงาม ทำให้ลูกศิษย์หลายๆคนแวะมาพักอยู่บ่อยครั้ง แม้ว่าลูกศิษย์ทุกคนจะยินดีช่วยค่าอาหารและที่พัก แต่ป้าหมอก็ไม่เคยรับ จากการบอกปากต่อปาก ถึงความน่ารักและอบอุ่นของสถานที่แห่งนี้ ทำให้บ้านป้าหมอไม่สามารถรองรับคนได้ ป้าหมอจึงตัดสินใจสร้างที่พักครั้งแรกจำนวน 16 ห้อง ในปี 2550 และสร้างร้านอาหารควบคู่กันไป
            </p>
-           <img class="image-right" src="~/assets/img/home/section2/Makmai _0051.png" alt="">
+           <img class="image-right" src="~/assets/img/home/section2/Makmai _0051.jpg" alt=""  v-lazy-load>
            <div class="bake"></div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-          <img class="image-left non-mobile" src="~/assets/img/home/section2/Group 370.png" alt="">
+          <img class="image-left non-mobile" src="~/assets/img/home/section2/Group 370.jpg" alt=""  v-lazy-load>
           <p class="left-content">
             จากความประทับใจของผู้เข้าพักจากวันนั้น ทำให้เกิด “สวนแมกไม้รีสอร์ท” ที่เปิดบริการอย่างเป็นทางการเมื่อวันที่ 27 ธันวาคม พ.ศ. 2552 โดยคงแนวคิดตั้งแต่เริ่มก่อตั้งคือเป็นสถานที่พักผ่อนที่ทำให้ทุกคนรู้สึกอบอุ่นเหมือนบ้านที่อยู่ท่ามกลางความร่มรื่นของธรรมชาติ 
           </p>
@@ -35,7 +35,7 @@
             การบริการ <br class="mobile">เพื่อให้คุณ...<b>เป็นคนสำคัญของเราเสมอ</b>
           </p>
           <div class="icon-map non-mobile">
-              <img src="~/assets/img/icon/metro-location.png" alt="">
+              <img src="~/assets/img/icon/metro-location.png" alt=""  v-lazy-load>
               <span>
                 200/8 หมู่ 3, หนองลู,
               </span>
@@ -55,12 +55,12 @@
               หลวงพ่ออุตตมะแห่งวัดวังค์วิเวการาม จึงทำให้เป็นที่รู้จักกันในหมู่ลูกศิษย์  
               ครั้งหนึ่งมีลูกศิษย์ของหลวงพ่อเดินทางมานมัสการแต่ไม่มีที่พักเพราะสมัยนั้น สังขละบุรียังไม่เป็นที่รู้จักมากนัก ทำให้บ่อยครั้งที่คุณย่เปิดบ้านต้อนรับลูกศิษย์หลวงพ่อ ด้วยความที่ป้าหมอเป็นคนอารมณ์ดี และมีใจรักบริการ จึงดูแลต้อนรับลูกศิษย์ทุกคนอย่างอบอุ่น และด้วยความที่ป้าหมอชอบตกแต่งบ้านและสวนให้สะอาดและสวยงาม ทำให้ลูกศิษย์หลายๆคนแวะมาพักอยู่บ่อยครั้ง แม้ว่าลูกศิษย์ทุกคนจะยินดีช่วยค่าอาหารและที่พัก แต่ป้าหมอก็ไม่เคยรับ จากการบอกปากต่อปาก ถึงความน่ารักและอบอุ่นของสถานที่แห่งนี้ ทำให้บ้านป้าหมอไม่สามารถรองรับคนได้ ป้าหมอจึงตัดสินใจสร้างที่พักครั้งแรกจำนวน 16 ห้อง ในปี 2550 และสร้างร้านอาหารควบคู่กันไป
            </p>
-           <img class="image-right" src="~/assets/img/home/section2/Makmai _0051.png" alt="">
+           <img class="image-right" src="~/assets/img/home/section2/Makmai _0051.jpg" alt=""  v-lazy-load>
            <div class="bake"></div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 col-xl-6 mobile">
             <div class="icon-map">
-                <img src="~/assets/img/icon/metro-location.png" alt="">
+                <img src="~/assets/img/icon/metro-location.png" alt=""  v-lazy-load>
                 <span>
                   200/8 หมู่ 3, หนองลู,
                 </span>
@@ -76,63 +76,80 @@
     <div class="content-second">
       <div class="row image">
         <div class="col-12 col-md-6 col-lg-6 col-xl-8 right">
-          <div class="image-text image-shadows">
-            <img class="box-right" src="~/assets/img/home/section2/EAK_1269-HDR.png" alt="">
-            <img class="box-right image-in" src="~/assets/img/home/section2/EAK_1269-HDR.png" alt="">
-            <div class="bottom-right" style="bottom: 50px;right: 60px;">ห้องพัก</div>
-          </div>
+          <nuxt-link to="room">
+            <div class="image-text image-shadows">
+            <img class="box-right" src="~/assets/img/home/section2/EAK_1269-HDR.jpg" alt="">
+            <img class="box-right image-in" src="~/assets/img/home/section2/EAK_1269-HDR.jpg" alt="">
+              <div class="bottom-right" style="bottom: 50px;right: 60px;">ห้องพัก</div>
+            </div>
+          </nuxt-link>
+          
         </div>
 
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 left mobile mobile-top-secound">
+           <nuxt-link to="experience">
           <div class="image-text">
-            <img class="box-hight" src="~/assets/img/home/section2/Makmai _0134.png" alt="">
+            <img class="box-hight" src="~/assets/img/home/section2/Makmai _0134.jpg" alt="">
             <div class="bottom-right" style="bottom: 0px;right: 40px;">พักกับเรา</div>
           </div>
+           </nuxt-link>
         </div>
 
 
            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mobile mobile-top">
+             <nuxt-link to="experience">
               <div class="image-text image-shadows">
-                <img class="box-hight" src="~/assets/img/home/section2/Makmai _0038.png" width="450px" alt="">
-                <img class="box-hight image-in-2" src="~/assets/img/home/section2/Makmai _0038.png" width="450px" alt="">
+                <img class="box-hight" src="~/assets/img/home/section2/Makmai _0038.jpg" width="450px" alt="">
+                <img class="box-hight image-in-2" src="~/assets/img/home/section2/Makmai _0038.jpg" width="450px" alt="">
                 <div class="bottom-right" style="bottom: 5px;right: -10px;">เที่ยวสังขละบุรี</div>
               </div>
+             </nuxt-link>
            </div>
 
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 left mobile-top">
+          <nuxt-link to="promotion">
           <div class="image-text image-shadows">
-            <img src="~/assets/img/home/section2/Makmai _0030.png" alt="">
-            <img class="box-right image-in-2" src="~/assets/img/home/section2/Makmai _0030.png" alt="">
+            <img src="~/assets/img/home/section2/Makmai _0030.jpg" alt="">
+            <img class="box-right image-in-2" src="~/assets/img/home/section2/Makmai _0030.jpg" alt="">
             <div class="bottom-right" style="bottom: 10px;right: 35px;">โปรโมชั่น</div>
           </div>
+          </nuxt-link>
+          <nuxt-link to="experience">
           <div class="image-text mobile-none">
-            <img class="box-hight" src="~/assets/img/home/section2/Makmai _0134.png" alt="">
+            <img class="box-hight" src="~/assets/img/home/section2/Makmai _0134.jpg" alt="">
             <div class="bottom-right" style="bottom: 0px;right: 40px;">พักกับเรา</div>
           </div>
+          </nuxt-link>
         </div>
 
   
         
 
            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mobile-none">
+             <nuxt-link to="experience">
               <div class="image-text image-shadows">
-                <img class="box-hight" src="~/assets/img/home/section2/Makmai _0038.png" width="450px" alt="">
-                <img class="box-hight image-in-2" src="~/assets/img/home/section2/Makmai _0038.png" width="450px" alt="">
+                <img class="box-hight" src="~/assets/img/home/section2/Makmai _0038.jpg" width="450px" alt="">
+                <img class="box-hight image-in-2" src="~/assets/img/home/section2/Makmai _0038.jpg" width="450px" alt="">
                 <div class="bottom-right" style="bottom: 5px;right: -10px;">เที่ยวสังขละบุรี</div>
               </div>
+             </nuxt-link>
            </div>
 
            <div class="col-12 col-md-6 col-lg-6 col-xl-4 meeting mobile-top" >
+             <nuxt-link to="meeting">
              <div class="image-text">
-              <img class="box-hight" src="~/assets/img/home/section2/Makmai _0037.png" alt="">
+              <img class="box-hight" src="~/assets/img/home/section2/Makmai _0037.jpg" alt="">
               <div class="bottom-right" style="bottom: 15px;right: 20px;width: fit-content;">ห้องประชุม งานสมนา</div>
              </div>
+             </nuxt-link>
            </div>
            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mobile-top">
+             <nuxt-link to="food">
              <div class="image-text">
-              <img class="box-hight" src="~/assets/img/home/section2/food.png" alt="">
+              <img class="box-hight" src="~/assets/img/home/section2/food.jpg" alt="">
               <div class="bottom-right" style="bottom: 15px;right: 45px;">ครัวแมกไม้</div>
              </div>
+             </nuxt-link>
            </div>
       </div>
     </div> 
@@ -140,26 +157,26 @@
     
 
     <div class="content-three">
-      <div class="row-cntent">
+      <div class="row row-cntent">
           <div class="col-12 col-md-12 col-lg-12 col-xl-5 center-content non-mobile">
             <div class="row">
               <div class="col-12 col-md-7 col-lg-7 col-xl-7">
                 <div class="content-three-p">
-                  <img class="content-icon" src="~/assets/img/icon/bus.png" alt="">
+                  <img class="content-icon" src="~/assets/img/icon/bus.png" alt=""  v-lazy-load>
                   <span>ที่จอดรถมากกว่า 70 คันรวมถึงรถบัสด้วย</span>
                 </div>
                 <div class="content-three-p second">
-                  <img class="content-icon" src="~/assets/img/icon/photo.png" alt="">
+                  <img class="content-icon" src="~/assets/img/icon/photo.png" alt=""  v-lazy-load>
                   <span>มุมถ่ายภาพมากมาย</span>
                 </div>
               </div>
               <div class="col-12 col-md-5 col-lg-5 col-xl-5 no-padding">
                 <div class="content-three-p">
-                  <img class="content-icon" src="~/assets/img/icon/table.png" alt="">
+                  <img class="content-icon" src="~/assets/img/icon/table.png" alt=""  v-lazy-load>
                   <span>มุมทำงาน</span>
                 </div>
                 <div class="content-three-p second">
-                  <img class="content-icon" src="~/assets/img/icon/park-2.png" alt="">
+                  <img class="content-icon" src="~/assets/img/icon/park-2.png" alt=""  v-lazy-load>
                   <span>สวนหย่อม</span>
                 </div>
               </div>
@@ -171,28 +188,28 @@
 
                 <div class="col-12">
                   <div class="content-three-p-mobile">
-                    <img class="content-icon" src="~/assets/img/icon/bus.png" alt="">
+                    <img class="content-icon" src="~/assets/img/icon/bus.png" alt=""  v-lazy-load>
                     <span>ที่จอดรถมากกว่า 70 คัน <br> รวมถึงรถบัสด้วย</span>
                   </div>
                 </div>
 
                 <div class="col-12">
                   <div class="content-three-p-mobile">
-                    <img class="content-icon" src="~/assets/img/icon/photo.png" alt="">
+                    <img class="content-icon" src="~/assets/img/icon/photo.png" alt=""  v-lazy-load>
                     <span>มุมถ่ายภาพมากมาย</span>
                   </div>
                 </div>
 
                 <div class="col-12">
                   <div class="content-three-p-mobile">
-                    <img class="content-icon" src="~/assets/img/icon/table.png" alt="">
+                    <img class="content-icon" src="~/assets/img/icon/table.png" alt=""  v-lazy-load>
                     <span>มุมทำงาน</span>
                   </div>
                 </div>
 
                 <div class="col-12">
                   <div class="content-three-p-mobile">
-                    <img class="content-icon" src="~/assets/img/icon/park-2.png" alt="">
+                    <img class="content-icon" src="~/assets/img/icon/park-2.png" alt=""  v-lazy-load>
                     <span>สวนหย่อม</span>
                   </div>
                 </div>
@@ -220,7 +237,7 @@
 </template>
 
 <script>
-import backgroundUrl from '~/assets/img/Makmai_0025.png'
+import backgroundUrl from '~/assets/img/Makmai_0025.jpg'
 export default {
    data() {
     return { backgroundUrl }

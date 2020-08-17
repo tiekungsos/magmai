@@ -12,16 +12,16 @@
         </div>
       </div>
       <div class="col-12 col-md-12 col-lg-12 col-xl-6">
-        <div class="hotel-book">
+        <div class="hotel-book" style="cursor: pointer;" v-on:click="openBook">
             <div class="header-box">
               <p>จองห้องพัก</p>
               
             </div>
             <div class="body-box">
-                <img src="~/assets/img/EAK_1436-HDR.png" alt="">
+                <img src="~/assets/img/EAK_1436-HDR.jpg" alt="">
             </div>
         </div>
-        <div class="hotel-book-mobile">
+        <div class="hotel-book-mobile" style="cursor: pointer;" v-on:click="openBook">
             <div class="header-box">
               <p>จองห้องพัก</p>
             </div>
@@ -69,10 +69,15 @@
 </template>
 
 <script>
-import backgroundUrl from '~/assets/img/Makmai_0025.png'
+import backgroundUrl from '~/assets/img/Makmai_0025.jpg'
 export default {
    data() {
-    return { backgroundUrl }
+    return { backgroundUrl}
+  },
+  methods: {
+    openBook: function () {
+        this.$root.$refs.bookRoom.openNav();
+    }
   }
 }
 </script>

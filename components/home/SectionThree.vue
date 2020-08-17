@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import backgroundUrl from '~/assets/img/home/section3/แกงส้มแป๊ะซะปลาช่อน1.png'
+import backgroundUrl from '~/assets/img/home/section3/แกงส้มแป๊ะซะปลาช่อน1.jpg'
 export default {
    data() {
     return { backgroundUrl }

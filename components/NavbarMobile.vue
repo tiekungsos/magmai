@@ -17,10 +17,10 @@
             <nuxt-link to="/">หน้าแรก</nuxt-link>
             <nuxt-link to="/room">ห้องพัก</nuxt-link>
             <nuxt-link to="/food">ห้องอาหาร</nuxt-link>
-            <a href="#">ห้องประชุม</a>
-            <a href="#">พักกับเรา</a>
-            <a href="#">โปรโมชั่น</a>
-            <a href="#">ติดต่อเรา</a>
+            <nuxt-link to="/meeting">ห้องประชุม</nuxt-link>
+            <nuxt-link to="/experience">พักกับเรา</nuxt-link>
+            <nuxt-link to="/promotion">โปรโมชั่น</nuxt-link>
+            <nuxt-link to="/contact">ติดต่อเรา</nuxt-link>
 
             <div class="social">
                 <img src="~/assets/img/icon/social/Group 18.png" alt="">

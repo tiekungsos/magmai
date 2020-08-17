@@ -35,10 +35,10 @@
             </div>
          </div>
          <div class="social">
-            <img src="~/assets/img/icon/social/Group 18.png" alt="">
-            <img src="~/assets/img/icon/social/line.png" alt="">
-            <img src="~/assets/img/icon/social/twitter.png" alt="">
-            <img src="~/assets/img/icon/social/instagram-sketched-2.png" alt="">
+            <img src="~/assets/img/icon/social/Group 18.png" alt=""  v-lazy-load>
+            <img src="~/assets/img/icon/social/line.png" alt=""  v-lazy-load>
+            <img src="~/assets/img/icon/social/twitter.png" alt=""  v-lazy-load>
+            <img src="~/assets/img/icon/social/instagram-sketched-2.png" alt=""  v-lazy-load>
          </div>
        </div>
        <div class="col-12 col-md-12 col-lg-12 col-xl-6 right non-mobile">
@@ -47,7 +47,7 @@
              <p>จองห้องพักกับเรา</p>
            </div>
            <div class="body"> 
-              <iframe class="iframe" src="https://maps.google.com/maps?q=สวนแมกไม้รีสอร์ท&z=15&output=embed"  frameborder="0" style="border:0"></iframe>
+              <iframe class="iframe" src="https://maps.google.com/maps?q=สวนแมกไม้รีสอร์ท&z=15&output=embed"  frameborder="0" style="border:0" v-lazy-load></iframe>
            </div>
          </div>
        </div>

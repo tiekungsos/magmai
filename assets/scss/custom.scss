@@ -8,11 +8,58 @@ body {
     // height: 5000px;
 }
 
+.paddingDesktop {
+    padding-left: 15.36vw !important;
+    padding-right: 15.36vw !important;
+    @media only screen and (max-width: 1440px) {
+        padding-left: 12.5vw !important;
+        padding-right: 12.5vw !important;
+    }
+    @media only screen and (max-width: 767px) {
+        padding-left: 6vw !important;
+        padding-right: 6vw !important;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+.non-mobile {
+    display: block;
+}
+
+.mobile-promotion {
+    display: none;
+}
+
+.no-padding-1440 {
+    @media only screen and (max-width: 1440px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .container-fluid {
     // @media only screen and (max-width: 1024px) {
     //     padding-left: 0;
     //     padding-right: 0;
     // }
+}
+
+.text-widte {
+    @media only screen and (max-width: 1024px) {
+        width: max-content !important;
+    }
+    @media only screen and (max-width: 767px) {
+        width: auto !important;
+    }
+    .new-line {
+        display: none;
+        @media only screen and (max-width: 1024px) {
+            display: block;
+        }
+    }
 }
 
 .non-mobile {
@@ -59,8 +106,27 @@ body {
     margin-top: 50px;
 }
 
+.top60 {
+    margin-top: 60px;
+}
+
 .top100 {
     margin-top: 100px;
+}
+
+.center-top {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.center-top-no-position {
+    margin: 0;
+    top: 50%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
 }
 
 @media only screen and (max-width: 767px) {
@@ -71,6 +137,9 @@ body {
         display: flex;
     }
     .mobile-nav {
+        display: block;
+    }
+    .mobile-promotion {
         display: block;
     }
 }
@@ -217,6 +286,9 @@ body {
                 padding-left: 384px;
                 font-style: italic;
                 font-size: 20px;
+                @media only screen and (max-width: 1440px) {
+                    padding-left: 250px;
+                }
                 @media only screen and (max-width: 767px) {
                     position: absolute;
                     padding-left: 0;
@@ -276,6 +348,9 @@ body {
                 padding-left: 0;
                 font-style: italic;
                 font-size: 20px;
+                @media only screen and (max-width: 1440px) {
+                    width: 100%;
+                }
                 @media only screen and (max-width: 767px) {
                     position: absolute;
                     right: 0;
@@ -427,6 +502,472 @@ body {
                 height: 55px;
                 @media only screen and (max-width: 767px) {
                     padding-left: 20%;
+                }
+            }
+        }
+    }
+}
+
+.section-promotion-1 {
+    height: 1080px;
+    @media only screen and (max-width: 767px) {
+        height: 100vh;
+    }
+    .promotion {
+        padding-left: 15.36vw;
+        padding-right: 15.36vw;
+        text-align: center;
+        top: 360px;
+        @media only screen and (max-width: 1440px) {
+            top: 480px;
+        }
+        @media only screen and (max-width: 767px) {
+            top: 5vh;
+            padding-left: 6vw;
+            padding-right: 6vw;
+        }
+        .hotel-book {
+            position: relative;
+            -webkit-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+            box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+            .header-box {
+                top: 65%;
+                position: absolute;
+                width: 465px;
+                height: 105px;
+                background-color: #009925;
+                right: 0;
+                -webkit-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+                box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+                p {
+                    color: #fff;
+                    @media only screen and (max-width: 767px) {
+                        width: inherit;
+                        margin-top: 8px;
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    top: 85%;
+                    width: 200px;
+                    height: 42px;
+                    left: 50%;
+                    -ms-transform: translate(-50%);
+                    transform: translate(-50%);
+                }
+            }
+        }
+        .title-scetion-room {
+            text-align: left;
+            padding-left: 3.49vw;
+            top: 65%;
+            p {
+                color: #fff;
+            }
+            @media only screen and (max-width: 767px) {
+                top: 30%;
+                text-align: center;
+                padding-left: 0;
+                width: 100%;
+            }
+            .top {
+                font-style: italic;
+                font-weight: 300;
+                font-size: 20px;
+                padding-left: 120px;
+                @media only screen and (max-width: 767px) {
+                    left: 0;
+                    width: 100%;
+                    font-size: 16px;
+                    font-weight: 200;
+                    padding-left: 0;
+                }
+            }
+            .top-room {
+                font-style: italic;
+                font-weight: 300;
+                font-size: 20px;
+                padding-left: 50px;
+                @media only screen and (max-width: 767px) {
+                    left: 0;
+                    width: 90vw;
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+            }
+            .center-text {
+                font-family: 'Sriracha', cursive;
+                font-size: 40px;
+                @media only screen and (max-width: 767px) {
+                    font-size: 30px;
+                }
+            }
+            .button {
+                font-style: italic;
+                font-size: 20px;
+                @media only screen and (max-width: 1440px) {
+                    width: 75%;
+                }
+                @media only screen and (max-width: 767px) {
+                    position: absolute;
+                    font-size: 16px;
+                    font-weight: 400;
+                    width: 100%;
+                    padding-left: 10vw;
+                    padding-right: 10vw;
+                }
+            }
+            .button:after {
+                @media only screen and (max-width: 767px) {
+                    content: "";
+                    position: absolute;
+                    left: 36px;
+                    top: -10px;
+                    display: inline-block;
+                    width: 75%;
+                    border-bottom: 2px solid GRAY;
+                }
+            }
+        }
+    }
+}
+
+.section-room-header-1 {
+    height: 1080px;
+    @media only screen and (max-width: 767px) {
+        height: 100vh;
+    }
+    .promotion {
+        padding-left: 12vw;
+        padding-right: 12vw;
+        text-align: center;
+        top: 360px;
+        @media only screen and (max-width: 1440px) {
+            top: 480px;
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+        @media only screen and (max-width: 767px) {
+            top: 5vh;
+            padding-left: 6vw;
+            padding-right: 6vw;
+        }
+        .hotel-book {
+            position: relative;
+            -webkit-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+            box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+            .header-box {
+                top: 65%;
+                position: absolute;
+                width: 465px;
+                height: 105px;
+                background-color: #009925;
+                right: 0;
+                -webkit-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+                box-shadow: -4px 22px 34px -4px rgba(0, 0, 0, 0.4);
+                .center-el {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+                p {
+                    color: #fff;
+                    @media only screen and (max-width: 767px) {
+                        width: inherit;
+                        margin-top: 8px;
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    top: 85%;
+                    width: 200px;
+                    height: 42px;
+                    left: 50%;
+                    -ms-transform: translate(-50%);
+                    transform: translate(-50%);
+                }
+            }
+        }
+        .title-scetion-room {
+            text-align: left;
+            padding-left: 3.49vw;
+            top: 65%;
+            p {
+                color: #fff;
+            }
+            @media only screen and (max-width: 767px) {
+                top: 30%;
+                text-align: center;
+                padding-left: 0;
+                width: 100%;
+            }
+            .top {
+                font-style: italic;
+                font-weight: 300;
+                font-size: 20px;
+                padding-left: 120px;
+                @media only screen and (max-width: 767px) {
+                    left: 0;
+                    width: 100%;
+                    font-size: 16px;
+                    font-weight: 200;
+                    padding-left: 0;
+                }
+            }
+            .top-room {
+                font-style: italic;
+                font-weight: 300;
+                font-size: 20px;
+                padding-left: 50px;
+                @media only screen and (max-width: 767px) {
+                    left: 0;
+                    width: 100%;
+                    font-size: 16px;
+                    font-weight: 200;
+                    padding-left: 0px;
+                }
+            }
+            .center-text {
+                font-family: 'Sriracha', cursive;
+                font-size: 40px;
+                @media only screen and (max-width: 767px) {
+                    font-size: 30px;
+                }
+            }
+            .button {
+                font-style: italic;
+                font-size: 20px;
+                @media only screen and (max-width: 767px) {
+                    position: absolute;
+                    font-size: 16px;
+                    font-weight: 400;
+                    width: 100%;
+                    padding-left: 10vw;
+                    padding-right: 10vw;
+                }
+            }
+            .button:after {
+                @media only screen and (max-width: 767px) {
+                    content: "";
+                    position: absolute;
+                    left: 36px;
+                    top: -10px;
+                    display: inline-block;
+                    width: 75%;
+                    border-bottom: 2px solid GRAY;
+                }
+            }
+        }
+    }
+}
+
+.section-contact-1 {
+    width: auto;
+    height: 1080px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @media only screen and (max-width: 1024px) {
+        height: 1024px;
+    }
+    @media only screen and (max-width: 767px) {
+        height: 812px;
+    }
+    .container-title {
+        position: relative;
+        .title-scetion {
+            margin-left: 296px;
+            margin-top: 240px;
+            width: max-content;
+            @media only screen and (max-width: 1440px) {
+                margin-left: 242px;
+            }
+            @media only screen and (max-width: 1024px) {
+                position: absolute;
+                margin: 0;
+                margin-top: 180px;
+                left: 50%;
+                -ms-transform: translate(-50%);
+                transform: translate(-50%);
+            }
+            @media only screen and (max-width: 768px) {
+                margin-top: 250px;
+            }
+            @media only screen and (max-width: 767px) {
+                margin-left: 0;
+                margin-top: 160px;
+            }
+            p {
+                color: #fff;
+            }
+            .top {
+                font-style: italic;
+                font-weight: 300;
+                font-size: 20px;
+                @media only screen and (max-width: 767px) {
+                    left: 0;
+                    width: 90vw;
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+            }
+            .center {
+                padding-left: 70px;
+                font-family: 'Sriracha', cursive;
+                font-size: 40px;
+                @media only screen and (max-width: 767px) {
+                    padding-left: 0;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .button {
+                padding-left: 384px;
+                font-style: italic;
+                font-size: 20px;
+                @media only screen and (max-width: 767px) {
+                    position: absolute;
+                    padding-left: 0;
+                    right: 0;
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+            }
+        }
+        .title-scetion-contact {
+            margin-left: 296px;
+            margin-top: 240px;
+            text-align: center;
+            width: auto;
+            @media only screen and (max-width: 1440px) {
+                margin-left: 242px;
+            }
+            @media only screen and (max-width: 1024px) {
+                position: absolute;
+                margin: 0;
+                margin-top: 180px;
+                left: 50%;
+                -ms-transform: translate(-50%);
+                transform: translate(-50%);
+            }
+            @media only screen and (max-width: 768px) {
+                margin-top: 250px;
+            }
+            @media only screen and (max-width: 767px) {
+                margin-left: 0;
+                margin-top: 160px;
+            }
+            p {
+                color: #000;
+            }
+            .top {
+                font-style: italic;
+                font-weight: 300;
+                font-size: 20px;
+                @media only screen and (max-width: 767px) {
+                    left: 0;
+                    width: 90vw;
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+            }
+            .center {
+                padding-left: 0;
+                font-family: 'Sriracha', cursive;
+                font-size: 40px;
+                @media only screen and (max-width: 767px) {
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .button {
+                padding-left: 0;
+                font-style: italic;
+                font-size: 20px;
+                @media only screen and (max-width: 767px) {
+                    position: absolute;
+                    right: 0;
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+            }
+        }
+        .hotel-book {
+            margin-top: 270px;
+            margin-left: 236px;
+            width: 465px;
+            height: 570px;
+            background-color: #009925;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            @media only screen and (max-width: 1440px) {
+                margin-left: 145px;
+            }
+            @media only screen and (max-width: 1024px) {
+                width: 365px;
+                height: 343.5px;
+                margin-top: 350px;
+                margin-left: 580px;
+            }
+            @media only screen and (max-width: 768px) {
+                margin-top: 480px;
+                margin-left: 345px;
+            }
+            @media only screen and (max-width: 767px) {
+                display: none;
+            }
+            .header-box {
+                height: 105px;
+                position: relative;
+                p {
+                    position: absolute;
+                    color: #fff;
+                    font-style: italic;
+                    left: 192px;
+                    top: 42px;
+                    @media only screen and (max-width: 1024px) {
+                        left: 140px;
+                    }
+                }
+            }
+            .body-box {
+                img {
+                    @media only screen and (max-width: 1024px) {
+                        width: 365px;
+                        height: 240px;
+                        object-fit: cover;
+                    }
+                    width: 465px;
+                    height: 465px;
+                }
+            }
+        }
+        .hotel-book-mobile {
+            display: none;
+        }
+        @media only screen and (max-width: 767px) {
+            .hotel-book-mobile {
+                display: block;
+                margin-top: 65vh;
+                // margin-bottom: 20px;
+                width: 100%;
+                height: 42px;
+                background-color: #009925;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .header-box {
+                    position: relative;
+                    text-align: center;
+                    height: 42px;
+                    p {
+                        color: #fff;
+                        font-style: italic;
+                        padding-top: 9px;
+                    }
                 }
             }
         }
@@ -754,6 +1295,7 @@ body {
             }
             @media only screen and (max-width: 1024px) {
                 margin-left: 0px;
+                margin-right: 0px;
             }
         }
         .content-three-p {
@@ -1092,13 +1634,139 @@ body {
     }
 }
 
-.sectionRoom-4 {
-    height: 2000px;
+.section-costom-4 {
     padding-left: 15.3%;
     padding-right: 15.3%;
+    padding-top: 200px;
+    padding-bottom: 200px;
     @media only screen and (max-width: 1440px) {
         padding-left: 65px;
         padding-right: 65px;
+    }
+    @media only screen and (max-width: 1024px) {
+        height: 1760px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-size: auto 650px;
+    }
+    @media only screen and (max-width: 767px) {
+        height: 1369px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        height: 900px;
+        img {
+            width: 100%;
+        }
+    }
+    position: relative;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .title {
+        color: #000;
+        padding-top: 70px;
+        font-family: 'Sriracha', cursive;
+        font-size: 40px;
+        margin-left: -50px;
+        @media only screen and (max-width: 1440px) {
+            margin-left: 137px;
+        }
+        @media only screen and (max-width: 1024px) {
+            margin-left: 0;
+        }
+    }
+    .gelly-left {
+        position: relative;
+        @media only screen and (max-width: 1024px) {
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+        }
+        padding-left: 50px;
+        padding-right: 25px;
+        padding-top: 58px;
+    }
+    .gelly-right {
+        position: relative;
+        @media only screen and (max-width: 1024px) {
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+        }
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 58px;
+    }
+    .detail {
+        position: absolute;
+        margin: -450px 204px;
+        @media only screen and (max-width: 1024px) {
+            width: max-content;
+            margin: 0;
+            top: 58%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        color: #fff;
+        text-align: center;
+        .inFirst {
+            font-size: 18px;
+        }
+        .inSec {
+            font-family: 'Sriracha', cursive;
+            font-size: 40px;
+        }
+    }
+    .button-sction {
+        position: relative;
+        padding-top: 65px;
+        @media only screen and (max-width: 1024px) {
+            padding-top: 110px;
+        }
+        .button {
+            left: 50%;
+            position: absolute;
+            -ms-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+            width: 225px;
+            height: 80px;
+            text-align: center;
+            background-color: #3A87F6;
+            cursor: pointer;
+            -webkit-box-shadow: 18px 20px 43px 2px rgba(39, 103, 194, 0.73);
+            -moz-box-shadow: 18px 20px 43px 2px rgba(39, 103, 194, 0.73);
+            box-shadow: 18px 20px 43px 2px rgba(39, 103, 194, 0.73);
+            p {
+                margin-top: 26px;
+                color: #fff;
+            }
+            @media only screen and (max-width: 767px) {
+                width: 100%;
+                height: 40px;
+                p {
+                    margin-top: auto;
+                    top: 50%;
+                    -ms-transform: translate(0%, 30%);
+                    transform: translate(0%, 30%);
+                }
+            }
+        }
+    }
+}
+
+.sectionRoom-4 {
+    height: 2000px;
+    padding-left: 15.36vw;
+    padding-right: 15.36vw;
+    @media only screen and (max-width: 1440px) {
+        padding-left: 12.5vw;
+        padding-right: 12.5vw;
+        img {
+            width: 518px;
+        }
     }
     @media only screen and (max-width: 1024px) {
         height: auto;
@@ -1110,6 +1778,8 @@ body {
     @media only screen and (max-width: 767px) {
         height: auto;
         padding-bottom: 60%;
+        padding-left: 6vw;
+        padding-right: 6vw;
         img {
             width: 100%;
         }
@@ -1150,10 +1820,17 @@ body {
         color: #fff;
         .inFirst {
             font-size: 18px;
+            @media only screen and (max-width: 767px) {
+                font-size: 16px;
+            }
         }
         .inSec {
             font-family: 'Sriracha', cursive;
             font-size: 40px;
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+                width: 200px;
+            }
         }
     }
 }
@@ -1165,6 +1842,10 @@ body {
     @media only screen and (max-width: 1440px) {
         padding-left: 65px;
         padding-right: 65px;
+        height: 1200px;
+        img {
+            width: 350px;
+        }
     }
     @media only screen and (max-width: 1024px) {
         height: auto;
@@ -1175,7 +1856,7 @@ body {
     }
     @media only screen and (max-width: 767px) {
         height: auto;
-        padding-bottom: 60%;
+        padding-bottom: 90%;
         img {
             width: 100%;
         }
@@ -1225,6 +1906,9 @@ body {
     .button-sction {
         position: relative;
         padding-top: 300px;
+        @media only screen and (max-width: 1440px) {
+            padding-top: 300px;
+        }
         @media only screen and (max-width: 1024px) {
             padding-top: 110px;
         }
@@ -1262,16 +1946,80 @@ body {
     }
 }
 
+.sectionEx-4 {
+    height: auto;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    @media only screen and (max-width: 1440px) {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    @media only screen and (max-width: 1024px) {
+        height: auto;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-size: auto 650px;
+        padding-bottom: 40%;
+    }
+    @media only screen and (max-width: 767px) {
+        height: auto;
+        padding-bottom: 60%;
+        img {
+            width: 100%;
+        }
+    }
+    position: relative;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    .header {
+        font-family: 'Sriracha', cursive;
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .detail {
+        padding-bottom: 35px;
+    }
+    .time {
+        font-size: 20px;
+    }
+}
+
+.meeting {
+    .meeting-header {
+        font-family: 'Sriracha', cursive;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    .meeting-header:after {
+        content: "";
+        position: absolute;
+        bottom: 45px;
+        left: 38%;
+        display: inline-block;
+        width: 25%;
+        border-bottom: 1px solid black;
+    }
+    .meeting-body {
+        padding-bottom: 50px;
+        .card {
+            margin: 0;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            width: 330px;
+            text-align: center;
+            box-shadow: rgba(0, 153, 38, 0.45) 0px 21px 30px 2px;
+        }
+    }
+}
+
 .section-buttom {
     padding-left: 15.3%;
     padding-right: 15.3%;
     height: 620px;
-    .mobile {
-        display: none;
-    }
-    .non-mobile {
-        display: block;
-    }
     @media only screen and (max-width: 1440px) {
         padding-left: 181px;
         padding-right: 181px;
@@ -1448,3 +2196,498 @@ body {
         }
     }
 }
+
+.image-slide {
+    padding-left: 19.01vw;
+    padding-right: 19.01vw;
+    @media only screen and (max-width: 1440px) {
+        padding-left: 9vw;
+        padding-right: 9vw;
+    }
+}
+
+.slick-prev {
+    left: -70px !important;
+}
+
+.slick-prev:before {
+    font-size: 50px !important;
+    color: black !important;
+}
+
+.slick-next {
+    right: -40px !important;
+}
+
+.slick-next::before {
+    font-size: 50px !important;
+    color: black !important;
+}
+
+.gerllery {
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 235px;
+}
+
+.contact {
+    padding-left: 13vw;
+    padding-right: 13vw;
+    height: auto;
+    padding-bottom: 700px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .contact-in {
+        border: solid 1px;
+        background-color: #fff;
+        padding-left: 50px;
+        .header {
+            position: relative;
+            font-family: 'Sriracha', cursive;
+            font-size: 40px;
+        }
+        .header:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -17px;
+            display: inline-block;
+            width: 21%;
+            border-bottom: 2px solid black;
+        }
+        .line {
+            left: 0;
+            bottom: -17px;
+            display: inline-block;
+            width: 21%;
+            border-bottom: 2px solid black;
+        }
+    }
+}
+
+.room-section {
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 300px;
+    @media only screen and (max-width: 1440px) {
+        padding-top: 200px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    @media only screen and (max-width: 767px) {
+        padding-top: 50px;
+    }
+    h5 {
+        font-size: 30px;
+        font-weight: 600;
+        @media only screen and (max-width: 1440px) {
+            padding-left: 10vw;
+        }
+        @media only screen and (max-width: 767px) {
+            font-size: 20px;
+            padding-left: 0;
+            text-align: center !important;
+        }
+    }
+}
+
+.TabOptionRoom {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    .tab-left-option {
+        .center-el {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        height: 235px;
+        background-color: #FFF;
+        color: #000000;
+        border: 4px solid rgba(0,
+        153,
+        37,
+        1);
+        -webkit-box-shadow: 24px 42px 35px -16px rgba(0,
+        153,
+        37,
+        0.40);
+        -moz-box-shadow: 24px 42px 35px -16px rgba(0,
+        153,
+        37,
+        0.40);
+        box-shadow: 24px 42px 35px -16px rgba(0,
+        153,
+        37,
+        0.40);
+        @media only screen and (max-width: 676px) {
+            margin-top: 10px;
+        }
+    }
+    .tab-right-option {
+        height: 235px;
+        position: relative;
+        background-color: #FFF;
+        border: 4px solid rgba(217, 38, 38, 1);
+        -webkit-box-shadow: 24px 42px 35px -16px rgba(217, 38, 38, 0.45);
+        -moz-box-shadow: 24px 42px 35px -16px rgba(217, 38, 38, 0.45);
+        box-shadow: 24px 42px 35px -16px rgba(217, 38, 38, 0.45);
+        @media only screen and (max-width: 676px) {
+            height: 114px;
+            margin-top: 50px;
+        }
+        .center-el {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            @media only screen and (max-width: 676px) {
+                display: flex;
+                width: 100%;
+            }
+            .option-el {
+                @media only screen and (max-width: 676px) {
+                    margin-top: 0px !important;
+                    text-align: center;
+                }
+                .row-stop {
+                    img {
+                        margin-left: -80px;
+                    }
+                    .text {
+                        width: max-content;
+                        left: 100%;
+                        margin-left: -20px;
+                    }
+                    @media only screen and (max-width: 676px) {
+                        display: block;
+                        img {
+                            margin-left: 0;
+                        }
+                        .text {
+                            width: auto;
+                            left: 0;
+                            margin-left: 0px;
+                            top: 20px;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .row-option {
+        height: 100%;
+        padding-left: 75px;
+        padding-right: 75px;
+        @media only screen and (max-width: 1440px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media only screen and (max-width: 767px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .option {
+            .option-in {
+                top: 40%;
+                .text {
+                    font-size: 14px;
+                    width: -webkit-max-content;
+                    width: max-content;
+                    top: 150%;
+                }
+            }
+        }
+    }
+}
+
+.room-background-bottom {
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.bookContect {
+    width: 100%;
+    height: -webkit-fill-available;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    position: fixed;
+    overflow: hidden;
+    .bookRoomLeft {
+        position: absolute;
+        width: 75vw;
+        height: 100%;
+    }
+    .bookRoom {
+        padding-top: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: fixed;
+        background-color: #fff;
+        z-index: 99999;
+        right: 0;
+        height: 100vh;
+        overflow-y: hidden;
+        transition: 0.5s;
+        overflow-x: hidden;
+        .row {
+            position: relative;
+            .left {
+                font-weight: 500;
+            }
+            .right {
+                font-weight: 500;
+                position: absolute;
+                right: 0;
+                cursor: pointer;
+            }
+        }
+        .header-text {
+            @media only screen and (max-width: 767px) {
+                font-size: 16px !important;
+            }
+        }
+        .detail {
+            padding-left: 10px;
+            .detail-in {
+                font-size: 14px;
+                font-weight: 300;
+            }
+            .tel {
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+        .buttom {
+            position: absolute;
+            width: 80%;
+            bottom: 80px;
+            .line {
+                border-bottom: 2px solid black;
+            }
+            .socialin {
+                padding-top: 20px;
+                .link-social {
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+            }
+        }
+    }
+}
+
+.galleryPage {
+    padding-left: 15.36vw;
+    padding-right: 15.36vw;
+    padding-bottom: 500px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .image-in {
+        padding-top: 30px;
+    }
+    .text-center {
+        margin-top: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 767px) {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom: 0px;
+    }
+}
+
+.image-in-meeting {
+    width: 100%;
+    @media only screen and (max-width: 1440px) {
+        width: 350px;
+    }
+}
+
+.meeting-text-header {
+    .new-line {
+        display: none;
+        @media only screen and (max-width: 1440px) {
+            display: block;
+        }
+    }
+    @media only screen and (max-width: 1440px) {
+        width: max-content !important;
+        margin-left: -100px;
+    }
+}
+
+.experience-page {
+    text-align: center;
+    @media only screen and (max-width: 1440px) {
+        text-align: left;
+        .text-left-hd {
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+    }
+}
+
+.hotel-book-room {
+    @media only screen and (max-width: 1024px) {
+        margin-top: 420px !important;
+    }
+    @media only screen and (max-width: 768px) {
+        margin-top: 480px !important;
+    }
+}
+
+.detailimg-room-page {
+    @media only screen and (max-width: 1024px) {
+        top: 80% !important;
+        left: 28% !important;
+        transform: translate(0%, -50%) !important;
+        p {
+            margin-bottom: 0px !important;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        left: 20% !important;
+    }
+    @media only screen and (max-width: 767px) {
+        left: 0% !important;
+        transform: translate(20%, -60%) !important;
+    }
+}
+
+.food-section {
+    height: 1300px !important;
+    @media only screen and (max-width: 767px) {
+        height: 120vh !important;
+    }
+    .food-text-header {
+        .new-line {
+            display: none;
+            @media only screen and (max-width: 1440px) {
+                display: block;
+            }
+            @media only screen and (max-width: 767px) {
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 1440px) {
+            width: max-content !important;
+            margin-left: -160px;
+        }
+        @media only screen and (max-width: 1024px) {
+            margin-left: 0px;
+        }
+        @media only screen and (max-width: 767px) {
+            width: 100% !important;
+        }
+    }
+    .hotel-book-food {
+        @media only screen and (max-width: 1024px) {
+            margin-top: 600px !important;
+        }
+        @media only screen and (max-width: 768px) {
+            margin-top: 480px !important;
+        }
+    }
+    .food-button-time1 {
+        @media only screen and (max-width: 767px) {
+            bottom: -140px;
+        }
+    }
+    .food-button-time2 {
+        @media only screen and (max-width: 767px) {
+            bottom: -170px;
+        }
+    }
+    .food-mobile-button {
+        @media only screen and (max-width: 767px) {
+            background-color: #FBB018 !important;
+            margin-top: 75vh !important;
+        }
+    }
+}
+
+.food-image-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #FFF;
+    font-style: italic;
+    font-weight: 600;
+    @media only screen and (max-width: 767px) {
+        font-size: 16px;
+        width: fit-content;
+        p {
+            width: auto !important;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    }
+}
+
+.food-section-2 {
+    @media only screen and (max-width: 768px) {
+        padding-left: 7vw !important;
+        padding-right: 7vw !important;
+        .top17 {
+            padding-top: 10px;
+        }
+    }
+}
+
+.meeting-section-2 {
+    @media only screen and (max-width: 768px) {
+        padding-left: 7vw !important;
+        padding-right: 7vw !important;
+        .top17 {
+            padding-top: 10px;
+        }
+    }
+}
+
+.experience-scetion2 {
+    .experience-detail {
+        @media only screen and (max-width: 1024px) {
+            margin: 0;
+            position: relative;
+            top: 0% !important;
+            transform: translate(0%, 0%) !important;
+        }
+    }
+    .experience-image {
+        display: block;
+        @media only screen and (max-width: 1024px) {
+            display: none;
+        }
+    }
+    .experience-image-top {
+        display: none;
+        @media only screen and (max-width: 1024px) {
+            display: block;
+        }
+    }
+    .ex-image {
+        @media only screen and (max-width: 1024px) {
+            text-align: center !important;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+// text-align: center;
